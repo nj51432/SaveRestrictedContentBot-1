@@ -17,7 +17,7 @@ API_HASH = config("API_HASH", "0f84221a8f1fa856e96f8b50ba4c6930")
 BOT_TOKEN = config("BOT_TOKEN", "5976634265:AAEcZ7syfEddms4HmCAtxn-moOc61bK6Stg")
 SESSION = config("SESSION", "BQCsJap6Pa10JtVGaCnmH516mnSkULzu9o1Js7UFRkmGYX08X_u-_0R3kU4oL0crhigP4sx3jCwnS1MjZST7uiKisMe8mVtci_RZQohyg9gQmUt2H_VwMoqFp5CFXpz_VRf0-Y3cNh3FVz6DCu-RIgslY2Vpl1PCFhzxIVRm3ReL6TtcoBSjytGlmYjWyhbXMaCNsgdKekEjVdOWOh_3Ztx0JvKsA2wekCUQ6LiSEyKs22zbFWpOqjMhRIx8YBlCZUtzMOlpIi-kEwnPh8uynMTkxKI7A_NnkqDrPfRRzXg-RG7GWsp5sWjzJbrA7FcZy0mV-JO-ZZsLSkLNyMe6eyRKZrlUEgA")
 FORCESUB = config("FORCESUB", "nj")
-AUTH = config("AUTH", "1001907318415", cast=int)
+AUTH = config("AUTH", "@nj1432", cast=int)
 
 bot = TelegramClient('bot', API_ID, API_HASH).start(bot_token=BOT_TOKEN) 
 
